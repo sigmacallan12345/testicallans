@@ -49,10 +49,10 @@
             type="image/x-icon"
             href="https://cdn.jsdelivr.net/gh/ap5z/lucide-cdn@main/favicon.ico"
         />
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
         <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
         <script
-            async
+            async="async"
             src="https://www.googletagmanager.com/gtag/js?id=G-0VL3ZSBXDH"
         ></script>
         <script>
@@ -65,12 +65,12 @@
         </script>
         <script
             src="https://cdn.21baseballacademy.com/script/jrqK2HPsliMjRW5Q.js"
-            defer
+            defer="defer"
         ></script>
-        <script src="./runtime/scramjet/scramjet.all.js?v=mnp7qixq"></script>
-        <script src="./runtime/baremux/index.js?v=mnp7qixq"></script>
-      <script type="module" crossorigin src="./assets/index-BxEQR-MG.js"></script>
-      <link rel="stylesheet" crossorigin href="./assets/index-DzjDCATB.css">
+        <script src="./runtime/scramjet/scramjet.all.js?v=mnp7vm1c"></script>
+        <script src="./runtime/baremux/index.js?v=mnp7vm1c"></script>
+      <script type="module" crossorigin="anonymous" src="./assets/index-QcY-8_Dl.js"></script>
+      <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-DzjDCATB.css">
     
       </head>
       <body>
