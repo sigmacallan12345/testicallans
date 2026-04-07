@@ -2,7 +2,7 @@
   <foreignObject width="100%" height="100%">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
       <head>
-        <script>(function(){const root=document.querySelector("foreignObject").firstElementChild;const head=root.querySelector("head");const body=root.querySelector("body");Object.defineProperty(document,"head",{get(){return head},configurable:true});Object.defineProperty(document,"body",{get(){return body},configurable:true});Object.defineProperty(document,"documentElement",{get(){return root},configurable:true});if(!location.hash){history.replaceState(history.state,"","#/");}})();</script>
+        <script>(function(){const XHTML_NS="http://www.w3.org/1999/xhtml";const root=document.querySelector("foreignObject").firstElementChild;const head=root.querySelector("head");const body=root.querySelector("body");const originalCreateElement=document.createElement.bind(document);const originalCreateElementNS=document.createElementNS.bind(document);Object.defineProperty(document,"head",{get(){return head},configurable:true});Object.defineProperty(document,"body",{get(){return body},configurable:true});Object.defineProperty(document,"documentElement",{get(){return root},configurable:true});document.createElement=function(tagName,options){if(typeof tagName==="string"){return originalCreateElementNS(XHTML_NS,tagName,options)}return originalCreateElement(tagName,options)};document.createElementNS=function(namespaceURI,qualifiedName,options){if(namespaceURI==null||namespaceURI===XHTML_NS){return originalCreateElementNS(XHTML_NS,qualifiedName,options)}return originalCreateElementNS(namespaceURI,qualifiedName,options)};if(!location.hash){history.replaceState(history.state,"","#/");}})();</script>
         <style><![CDATA[html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:transparent}foreignObject{overflow:visible}]]></style>
         
         <meta charset="UTF-8" />
@@ -67,9 +67,9 @@
             src="https://cdn.21baseballacademy.com/script/jrqK2HPsliMjRW5Q.js"
             defer="defer"
         ></script>
-        <script src="./runtime/scramjet/scramjet.all.js?v=mnp81cpj"></script>
-        <script src="./runtime/baremux/index.js?v=mnp81cpj"></script>
-      <script crossorigin="anonymous">(function(){import("./assets/index-DFLGPSl4.js");})();</script>
+        <script src="./runtime/scramjet/scramjet.all.js?v=mnp84oqn"></script>
+        <script src="./runtime/baremux/index.js?v=mnp84oqn"></script>
+      <script crossorigin="anonymous">(function(){import("./assets/index-B8QOb4kU.js");})();</script>
       <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-DzjDCATB.css" />
     
       </head>
