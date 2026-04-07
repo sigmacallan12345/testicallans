@@ -67,10 +67,10 @@
             src="https://cdn.21baseballacademy.com/script/jrqK2HPsliMjRW5Q.js"
             defer="defer"
         ></script>
-        <script src="./runtime/scramjet/scramjet.all.js?v=mnp7vm1c"></script>
-        <script src="./runtime/baremux/index.js?v=mnp7vm1c"></script>
-      <script type="module" crossorigin="anonymous" src="./assets/index-QcY-8_Dl.js"></script>
-      <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-DzjDCATB.css">
+        <script src="./runtime/scramjet/scramjet.all.js?v=mnp81cpj"></script>
+        <script src="./runtime/baremux/index.js?v=mnp81cpj"></script>
+      <script crossorigin="anonymous">(function(){import("./assets/index-DFLGPSl4.js");})();</script>
+      <link rel="stylesheet" crossorigin="anonymous" href="./assets/index-DzjDCATB.css" />
     
       </head>
       <body>
